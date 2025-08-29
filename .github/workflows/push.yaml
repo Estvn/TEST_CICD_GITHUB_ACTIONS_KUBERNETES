@@ -22,4 +22,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: estvn/prueba-gha:latest
+          tags: ${{ github.sha }}
+          #tags: estvn/prueba-gha:latest
